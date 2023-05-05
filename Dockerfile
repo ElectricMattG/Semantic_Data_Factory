@@ -2,7 +2,7 @@
 FROM python:3.9
 
 # Set the working directory to /research
-WORKDIR /TL_DML_Semantic_Data_Factory
+WORKDIR /TAL_DML_Semantic_Data_Factory
 
 # Copy the requirements file into the container
 COPY requirements.txt .

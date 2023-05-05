@@ -38,8 +38,8 @@
  <p>One needs an active OpenAI account with a valid API key to run these jobs. One can register for an account and generate and API key on <a href="https://openai.com/pricing">OpenAI’s website</a>. Any costs accrued when using this repo are for your own expense--you are responsible for your own OpenAI account. No external rate-limit agreements are in-place with OpenAI, so the application is constrained by the native, public <a href="https://platform.openai.com/docs/guides/rate-limits/overview">OpenAI rate-limits.</a></p>
  <p>This application has been tested with python 3.8, 3.9, and 3.10. Please ensure that python venv module is installed to manage the creation of virtual environments. Jobs can be run from within a virtual environment using the following terminal commands within a bash shell.</p>
  <pre style="white-space: pre-wrap;">
- <b>$ git clone git@github.com:ElectricMattG/TL_DML_Semantic_Data_Factory.git</b>
- <b>$ cd TL_DML_Semantic_Data_Factory</b>
+ <b>$ git clone git@github.com:ElectricMattG/TAL_DML_Semantic_Data_Factory.git</b>
+ <b>$ cd TAL_DML_Semantic_Data_Factory</b>
  <b>$ make install</b>
  <b>$ source ./.venv/bin/activate</b></pre>
  <p>Update your OpenAI api key in the config. One needs to do this to run the application. The configuration section below provides details of the config. The defaults are set to an embedding job for 1500 search queries. Run the tests to check the install and config. Then run the application.</p>
